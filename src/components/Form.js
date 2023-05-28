@@ -23,6 +23,7 @@ function Form(props) {
     }  
     const dataArray=[...submittedData, data]
     setSubmittedData(dataArray)
+    console.log(dataArray)
     setFirstName("")
     setLastName("")
   }else{
